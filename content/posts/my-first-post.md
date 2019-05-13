@@ -4,11 +4,6 @@ description = "我是第一篇帖子"
 tags = [ "start", "luneS", "日常" ]
 date = "2019-04-10"
 location = "JiNan, CN"
-categories = [
-  "",
-  "V"
-]
-slug = "dfa,mdn,fnmansd,"
 type = "post"
 +++
 
