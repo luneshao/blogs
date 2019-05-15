@@ -7,9 +7,9 @@ location = "JiNan, CN"
 type = "post"
 +++
 
-### Javascript 相关
+> Javascript 相关
 
-> 1\. addEventListen
+1\. addEventListen
 
 ```javascript
 function addEvt(eTarget, eType, eHandle) {
@@ -27,7 +27,7 @@ function addEvt(eTarget, eType, eHandle) {
 }
 ```
 
-> 2\. scrollTop()
+2\. scrollTop()
 
 ```javascript
 // ie6/7/8
@@ -55,4 +55,4 @@ const st =
   0
 ```
 
-### CSS3
+> CSS3

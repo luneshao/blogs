@@ -7,7 +7,7 @@ location = "JiNan, CN"
 type = "post"
 +++
 
-### 01. JS 的 window.location 对象
+> 01\. JS 的 window.location 对象
 
 包含有关文档及当前位置的信息。
 
@@ -31,7 +31,7 @@ type = "post"
 
 * `location.replace()`: 用给定的URL替换当前的资源，不会被保存历史。
 
-### 10. ajax 请求头中的属性
+> 10\. ajax 请求头中的属性
 
 [MDN文档地址](https://developer.mozilla.org/zh-CN/docs/Web/HTTP)
 
