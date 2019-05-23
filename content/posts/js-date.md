@@ -7,9 +7,9 @@ location = "JiNan, CN"
 type = "post"
 +++
 
-> 常用方法
+参考文献：[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date)
 
-[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date)
+> 常用方法
 
 #### 语法
 
