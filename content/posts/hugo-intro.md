@@ -18,4 +18,7 @@ type = "post"
 └── config.toml
 ```
 
+### 图片的引用
+Hugo 的图片可以直接放在其 static/ 目录里面，其路径就是 /iamges/image_name.png。
+
 [原文连接](https://hgt312.github.io/post/other_note2/)
