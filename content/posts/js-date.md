@@ -1,5 +1,5 @@
 +++
-title = "Javascript Date 对象"
+title = "js Date 对象"
 description = "JavaScript Date 对象的常用功能及get到的小技巧。"
 tags = ["前端", "Javascript"]
 date = "2019-05-23"

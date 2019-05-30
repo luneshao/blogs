@@ -1,5 +1,5 @@
 +++
-title = "Mac的快捷键"
+title = "Mac 的快捷键"
 description = "Mac常用的快捷键"
 date = "2019-05-06"
 tags = [ "luneS", "日常" ]

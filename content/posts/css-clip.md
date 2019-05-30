@@ -20,7 +20,7 @@ clip 属性剪裁元素，属性仅应用于**绝对定位**元素，例如 `pos
 
 * auto：不剪裁。
 
-* `<shape>`：截取的形状，值的表示方式 `rect(<top>, <right>, <bottom>, <left>)`。
+* `<shape>`：截取的形状，值的表示方式 `rect(<top>, <right>, <bottom>, <left>) 或 rect(<top> <right> <bottom> <left>)`。
 
 top & bottom 设置的是距离元素上边距的距离。left & right 设置的是距离元素左边距的距离。
 
