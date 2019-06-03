@@ -6,3 +6,5 @@ date = "2019-05-30"
 location = "JiNan, CN"
 type = "posts"
 +++
+
+`display: block` 对 `vertical-align` 属性不起作用。
