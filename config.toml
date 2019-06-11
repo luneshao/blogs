@@ -76,3 +76,11 @@ theme = "hugo-lamp"
   github = "luneshao"
 	twitter = "lune"
 	google = "LuneShao"
+  disqusShortname = "luneshao"
+
+  # Analytics settings
+  # Baidu Analytics
+# ba_track_id: 83e259f69b37d02a4633a2b7d960139c
+
+  # Disqus settings（https://disqus.com/）
+# disqus_username: qiubaiying

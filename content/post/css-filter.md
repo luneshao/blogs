@@ -5,7 +5,8 @@ tags = ["前端", "CSS"]
 date = "2019-05-31"
 location = "JiNan, CN"
 type = "post"
-cover="/img/cover.jpg"
+cover = "/img/cover.jpg"
+comments = true
 +++
 
 > 概述
