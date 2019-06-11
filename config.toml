@@ -77,6 +77,7 @@ theme = "hugo-lamp"
 	twitter = "lune"
 	google = "LuneShao"
   disqusShortname = "luneshao"
+  googleAnalytics = "UA-141781918-1"
 
   # Analytics settings
   # Baidu Analytics

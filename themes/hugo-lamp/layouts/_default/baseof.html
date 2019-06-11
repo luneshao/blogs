@@ -27,9 +27,11 @@
   <body>
     {{ partial "svg-icons.html" . }}
     {{ partial "header.html" . }}
+    {{ template "_internal/google_analytics.html" . }}
     {{ partial "sidebar.html" . }}
     {{ block "main" . }}{{ end }}
-    {{ partial "footer.html" . }}
     {{ partial "disqus.html" . }}
+    {{ partial "footer.html" . }}
+    {{ template "_internal/disqus.html" . }}
   </body>
 </html>
