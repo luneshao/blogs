@@ -7,40 +7,72 @@ title = "luneS's garden"
 # Enable Google Analytics by entering your tracking code
 # googleAnalytics = ""
 paginate = 15
-# theme = "sublime-hugo"
+theme = "hugo-lamp"
 
-[permalinks]
-	post = "/:year/:month/:day/:slug"
+# [permalinks]
+# 	post = "/:year/:month/:day/:slug"
+
+# [params]
+# 	name = "luneS"
+# 	description = "卵はおいしいです"
+# 	copyright = ""
+
+# 	# Custom assets can be linked with their paths relative to static/
+# 	custom_css = []
+# 	custom_js  = []
+
+# 	# Links to newer/older blog posts
+# 	newer = "Newer"
+# 	older = "Older"
+
+# 	pageNotFoundTitle = "Page not found"
+# 	pageNotFoundSubtitle = "The requested page was not <br> found on the server."
+
+# [params.offcanvas]
+# 	# Menu items
+# 	title = "luneS"
+# 	bio = "私は人間です"
+# 	bio2 = "JiNan CN"
+# 	subscribe = "Subscribe"
+# 	followme = "Contact"
+
+# 	# Enable Google search
+# 	search_enabled = true
+# 	search = "Search"
+
+# 	[[params.offcanvas.socialnetworks]]
+# 		name = "1561358258@qq.com"
+# 		url = "mailto:1561358258@qq.com"
+		
+# [[menu.main]]
+#   name = "Hugo"
+#   weight = 1
+#   identifier = "hugo"
+#   url = "/hugo/"
+[[menu.main]]
+  name = "Blog"
+  weight = 2
+  identifier = "blog"
+  url = "https://www.weibo.com/u/3754246405"
+# [[menu.main]]
+#   name = "Tags"
+#   weight = 3
+#   identifier = "tags"
+#   url = "/tags/"
 
 [params]
-	name = "luneS"
-	description = "高校生"
-	copyright = ""
+  subtitle = "是一个人类。 :Q"
+  author = "LuneShao"                     # Your name
+  logo = "/img/photo.jpg"                  # Logo
+  description = "卵はおいしいです"          # Meta description tag
+  paginate = 10
 
-	# Custom assets can be linked with their paths relative to static/
-	custom_css = []
-	custom_js  = []
+  # SEO configs
+  seotitle = "Lune's blogs"                  # Overwrite site title for SEO purpose
+  googleSiteVerification = "google_site_verification_code"    # Google Webmaster
+  msValidate = "bing_site_verification_code"                  # Bing Webmaster
 
-	# Links to newer/older blog posts
-	newer = "Newer"
-	older = "Older"
-
-	pageNotFoundTitle = "Page not found"
-	pageNotFoundSubtitle = "The requested page was not <br> found on the server."
-
-[params.offcanvas]
-	# Menu items
-	title = "luneS"
-	bio = "私は人間です"
-	bio2 = "JiNan CN"
-	subscribe = "Subscribe"
-	followme = "Contact"
-
-	# Enable Google search
-	search_enabled = true
-	search = "Search"
-
-	[[params.offcanvas.socialnetworks]]
-		name = "1561358258@qq.com"
-		url = "mailto:1561358258@qq.com"
-		
+	email = "1561358258@qq.com"
+  github = "luneshao"
+	twitter = "lune"
+	google = "LuneShao"
