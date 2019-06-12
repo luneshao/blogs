@@ -69,3 +69,8 @@ button:hover {
     font-family: $family-monospace;
   }
 }
+
+#disqus_thread {
+  display: inline-block;
+  width: 500px;
+}

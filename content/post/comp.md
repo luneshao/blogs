@@ -87,7 +87,7 @@ var y =
 
 我们可以根据 `document.compatMode` 的值来判断文档是否加了标准声明。
 
-![chrome截图](/img/0509-co-docCom.jpg)
+![chrome截图](http://ww4.sinaimg.cn/large/006tNc79ly1g3y3jkbsa8j30jm05kq2v.jpg)
 
 `IE` 对盒模型的渲染在 `Standards Mode` 和 `Quirks Mode` 是有很大差别的，在 `Standards Mode` 下对于盒模型的解释和其他的标准浏览器是一样，但在 `Quirks Mode` 模式下则有很大差别，而在不声明 `Doctype`的情况下，`IE `默认又是 `Quirks Mode`。所以为兼容性考虑，我们可能需要获取当前的文档渲染方式。
 

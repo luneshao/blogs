@@ -27,7 +27,7 @@ top & bottom 设置的是距离元素上边距的距离。left & right 设置的
 ##### 左侧使用了clip属性，左右容器和图片的尺寸都是200 * 200。
 
 <p style="text-align: center">
-<img src="/img/0522-css-clip1.png" style="height: 200px; width: 400px" />
+<img src="/img/0522-css-clip1.png" style=" width: 100%" />
 </p>
 
 top、right、bottom、left 的值可以是 *数值* 或 *auto* 。

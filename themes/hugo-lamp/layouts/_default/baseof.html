@@ -30,8 +30,7 @@
     {{ template "_internal/google_analytics.html" . }}
     {{ partial "sidebar.html" . }}
     {{ block "main" . }}{{ end }}
-    {{ partial "disqus.html" . }}
     {{ partial "footer.html" . }}
-    {{ template "_internal/disqus.html" . }}
+    <!-- {{ template "_internal/disqus.html" . }} -->
   </body>
 </html>

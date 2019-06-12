@@ -8,6 +8,7 @@ title = "luneS's garden"
 # googleAnalytics = ""
 paginate = 15
 theme = "hugo-lamp"
+googleAnalytics = "UA-141781918-1"       # Google Analytics UA number
 
 # [permalinks]
 # 	post = "/:year/:month/:day/:slug"
@@ -50,9 +51,9 @@ theme = "hugo-lamp"
 #   identifier = "hugo"
 #   url = "/hugo/"
 [[menu.main]]
-  name = "Blog"
+  name = "sina 微博"
   weight = 2
-  identifier = "blog"
+  identifier = "sina 微博"
   url = "https://www.weibo.com/u/3754246405"
 # [[menu.main]]
 #   name = "Tags"
@@ -68,16 +69,16 @@ theme = "hugo-lamp"
   paginate = 10
 
   # SEO configs
-  seotitle = "Lune's blogs"                  # Overwrite site title for SEO purpose
-  googleSiteVerification = "google_site_verification_code"    # Google Webmaster
+  seotitle = "Lune's blogs luneshao lune"                  # Overwrite site title for SEO purpose
+  googleSiteVerification = "Gu27F60AgLNf8h9KCAXsLXjKd7O-e1oZpSGeblt5w70"  # Google Webmaster
   msValidate = "bing_site_verification_code"                  # Bing Webmaster
 
 	email = "1561358258@qq.com"
   github = "luneshao"
-	twitter = "lune"
+	twitter = "lune76308387"
 	google = "LuneShao"
   disqusShortname = "luneshao"
-  googleAnalytics = "UA-141781918-1"
+  
 
   # Analytics settings
   # Baidu Analytics

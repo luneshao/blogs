@@ -17,7 +17,7 @@ comments = true
 
 最近公司需要找一个管理项目的工具，然后被推荐了 coding.net，我就看了一下官网的功能介绍。看到合作伙伴那里，hover 之后，图片变了颜色。然后，职业病就犯了，就看了一下人家是怎么实现的。
 
-![合作伙伴的css样式](/img/0531-cf-hezuohuoban.jpg)
+<img src="/img/0531-cf-hezuohuoban.jpg" alt="合作伙伴的css样式" style="width: 100%" />
 
 讲道理，我找了半天是怎么换的颜色。filter 这个属性之前看到是用来兼容 ie 的 opacity 属性的，我也一直没有用过，就以为它就是透明度的属性，我就没勾掉试一试。。。有点愚蠢。我就以为是换了图片的 URL，结果图片的 URL 并没有变化。我查看了图片，它本来的颜色就是彩色的。然后猜测，难道是利用 css 改变了图片的颜色？？？我就挨个属性勾了勾，果然是 filter 的原因。。
 
@@ -81,7 +81,7 @@ url()
 <drop-shadow()> = drop-shadow( <length>{2,3} <color>? )
 ```
 
-![drop-shadow示例图片](/img/0531-eg-ds.jpg)
+<img src="/img/0531-eg-ds.jpg" alt="drop-shadow示例图片" style="width: 100%" />
 
 ⚠️注意：这里使用**png**格式的图片，才可以给图像边缘设置阴影。私以为这个属性是真的强大。请忽略我的龙鸣抠图
 
@@ -100,7 +100,7 @@ url()
 <invert()> = invert( <number-percentage> )
 ```
 
-![反转示例图片](/img/0531-eg-iv.jpg)
+<img src="/img/0531-eg-iv.jpg" alt="反转示例图片" style="width: 100%" />
 
 （这还是公主殿下对吧😸）
 
@@ -113,19 +113,19 @@ url()
 ```html
 <saturate()> = saturate( <number-percentage> )
 ```
-![饱和度示例图片](/img/0531-eg-sa.jpg)
+<img src="/img/0531-eg-sa.jpg" alt="饱和度示例图片" style="width: 100%" />
 
 **sepia**: 将图像转换为 _深褐色_ 。
 ```html
 <sepia()> = sepia( <number-percentage> )
 ```
-![饱和度示例图片](/img/0531-eg-se.jpg)
+<img src="/img/0531-eg-se.jpg" alt="饱和度示例图片" style="width: 100%" />
 
 > 兼容性
 
 让我们再来看一看 filter 属性的兼容性。
 
-![饱和度示例图片](/img/0531-jianrongxing.jpg)
+<img src="/img/0531-jianrongxing.jpg" alt="饱和度示例图片" style="width: 100%" />
 
 OMG！IE 不支持 filter 属性！那他是怎么处理 opacity 属性兼容的呢？？？于是乎，bing，没找到。就去 MDN 看了[opacity 兼容性](https://developer.mozilla.org/zh-CN/docs/Web/CSS/opacity#Browser_compatibility)。
 
