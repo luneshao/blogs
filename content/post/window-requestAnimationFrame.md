@@ -1,14 +1,15 @@
 +++
-title = "window requestAnimationFrame 方法"
-description = "window 拓展"
+title = "window.requestAnimationFrame方法"
+description = "window.requestAnimationFrame方法可以实现setTimeout的功能，经过测试动画会比setTimeout更稳定，并且运行在后台标签页或者隐藏的`<iframe>` 里时会暂停调用，更加节省性能。"
 tags = ["前端"]
 date = "2019-05-30"
 location = "JiNan, CN"
 type = "post"
+keywords = "window,requestAnimationFrame,性能,setTimeout,动画"
 +++
 [原文链接 伯乐](http://web.jobbole.com/91578/)  [MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/requestAnimationFrame)
 
-> 概念
+## 概念
 
 告诉浏览器——你希望执行一个动画，并且要求浏览器在下次重绘之前调用指定的回调函数更新动画。该方法需要传入一个**回调函数**作为参数，该回调函数会在浏览器下一次重绘之前执行。
 
@@ -16,7 +17,7 @@ type = "post"
 
 这个回调函数会默认接收一个参数，即执行回调函数时的**时间戳**，回调函数，会在每次浏览器在下次重绘前执行回调函数更新动画，个人认为这样来保证动画的帧率和稳定性。大多数电脑显示器的刷新频率是60Hz，大概相当于每秒钟重绘60次，相当于每帧的执行时间为 16.67ms。
 
-> 特性
+## 特性
 
 * 参数中的回调函数执行次数通常是每秒60次，速度大约为 16.67ms 每帧。
 
@@ -26,7 +27,7 @@ type = "post"
 
 * 它返回一个整数，表示定时器的编号，这个值可以传递给 `cancelAnimationFrame` 用于取消这个函数的执行。
 
-> 使用方法
+## 使用方法
 
 ```js
 window.requestAnimationFrame(callback)
@@ -39,7 +40,7 @@ function callback (timeStamp) {
 }
 ```
 
-> 避免一帧多次调用
+## 避免一帧多次调用
 
 ```js
   let ifCurFra = false // 当前帧是否执行
@@ -54,7 +55,7 @@ function callback (timeStamp) {
   window.addEventListener('scroll', cb)
 ```
 
-> 兼容
+## 兼容
 
 [兼容代码](https://www.cnblogs.com/xiaohuochai/p/5777186.html)
 
@@ -73,7 +74,7 @@ if(!window.requestAnimationFrame){
 }
 ```
 
-> example
+## example
 
 我测试了一下两种方法实现动画，认为 setTimeout() 和 window.requestAnimationFrame ()， raf 的动画更稳定一些,sto 有时平稳有时抖动。
 

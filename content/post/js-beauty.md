@@ -4,7 +4,9 @@ description = "js代码美化，截取了一些自己学到的。"
 tags = ["前端", "Javascript"]
 date = "2019-05-27"
 location = "JiNan, CN"
-type = ""
+type = "post"
+draft = "true"
+keywords = "javascript,代码美化,前端"
 +++
 
 [github完整文章连接](https://github.com/airbnb/javascript)

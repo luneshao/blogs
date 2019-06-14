@@ -1,10 +1,11 @@
 +++
 title = "USB 接口类型"
-description = "迫于总是记不住"
+description = "迫于总是记不住，总结了一下接口规范。"
 tags = [ "luneS", "硬件" ]
 date = "2019-05-14"
 location = "JiNan, CN"
 type = "post"
+keywords = "USB,类型"
 +++
 
 [USB](https://zh.wikipedia.org/wiki/%E7%A7%BB%E5%8A%A8%E8%AE%BE%E5%A4%87): 通用串行总线（英语：Universal Serial Bus，缩写：USB）是连接计算机系统与外部设备的一种串口总线标准，也是一种输入输出接口的技术规范，

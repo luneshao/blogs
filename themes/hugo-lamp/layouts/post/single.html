@@ -6,8 +6,9 @@
     </header>
     {{ partial "adsense.html" . }}
     <article class="post-content">{{ .Content }}</article>
+    <!-- {{ partial "disqus.html" . }} -->
+    <div id="vcomments"></div>
     <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=22677433&auto=1&height=66"></iframe>
-    {{ partial "disqus.html" . }}
     <footer class="post-footer">
       {{ if isset .Params "tags" }}
       <ul class="post-tags">
@@ -28,5 +29,18 @@
         </a>
       </div>
     </footer>
+    <script>
+      new Valine({
+        el: '#vcomments' ,
+        appId: 'VMtRNdHhQOQVoiWu2y2dQnJb-gzGzoHsz',
+        appKey: '073437m7LGtKY9mmCQioFbKI',
+        notify:true, 
+        verify:false, 
+        avatar:'wavatar', 
+        recordIP: true,
+        visitor: true,
+        placeholder: 'Oh, what a curious baby you are!' 
+      })
+  </script>
   </section>
 {{ end }}

@@ -7,9 +7,9 @@ location = "JiNan, CN"
 type = "post"
 +++
 
-### 1.Array
+## 1.Array
 
-#### 1.1 将类数组转化为数组
+### 1.1 将类数组转化为数组
 
 * `Array.prototype.slice.call()` 方法：
 

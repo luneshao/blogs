@@ -5,13 +5,14 @@ tags = ["前端", "Javascript"]
 date = "2019-05-23"
 location = "JiNan, CN"
 type = "post"
+keywords = "javascript,Date"
 +++
 
 参考文献：[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date)
 
-> 常用方法
+## 常用方法
 
-#### 语法
+### 语法
 
 **new Date()：** 返回一个 Date 对象<br>
 **new Date(value)：**<br>
@@ -22,7 +23,7 @@ type = "post"
 
 ![调用图片](/img/0522-ss-func1.png)
 
-##### new Date() 参数
+#### new Date() 参数
 
 **(value)：** 一个整数值，表示自1970年1月1日00:00:00 UTC（the Unix epoch）以来的毫秒数。<br>
 
@@ -44,7 +45,7 @@ seconds：时间中的秒部分的整数值。
 
 milliseconds：时间的毫秒部分的整数值。
 
-#### 方法
+### 方法
 
 **Date.now()：** 返回自 1970-1-1 00:00:00  UTC（世界标准时间）至今所经过的毫秒数。
 
@@ -52,7 +53,7 @@ milliseconds：时间的毫秒部分的整数值。
 
 **Date.UTC()：** 接受和构造函数最长形式的参数相同的参数（从2到7），并返回从 1970-01-01 00:00:00 UTC 开始所经过的毫秒数。
 
-> 使用场景
+## 使用场景
 
 [示例1原文](http://www.alloyteam.com/2016/05/date-object/)
 [示例2原文](https://www.jianshu.com/p/b4d058518575)

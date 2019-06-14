@@ -5,11 +5,12 @@ tags = [ "luneS", "web前端" ]
 date = "2019-05-09"
 location = "JiNan, CN"
 type = "post"
+keywords = "前端,兼容性"
 +++
 
-### Element 相关
+## 1.document 相关
 
-1\. addEventListen
+1.1 addEventListen
 
 **兼容写法**：
 
@@ -29,7 +30,7 @@ function addEvt(eTarget, eType, eHandle) {
 }
 ```
 
-2\. scrollTop()
+1.2 scrollTop()
 
 **兼容写法**：
 
@@ -57,9 +58,9 @@ const st = document.pageYOffset;
 const st = document.documentElement.scrollTop;
 ```
 
-### window
+## 2.window相关
 
-1\. window.scrollY
+2.1 window.scrollY
 
 **兼容写法**：
 
@@ -107,4 +108,4 @@ document.documentElement: 返回文档对象（document）的根元素的只读�
 
 document.body：返回当前文档中的 `<body>` 元素或者 `<frameset>` 元素。
 
-### CSS3
+## 3.CSS3相关

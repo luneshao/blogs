@@ -2,10 +2,6 @@ baseurl = "https://luneshao.github.io/"
 # remember trailing / at end of baseurl
 languageCode = "en-us"
 title = "luneS's garden"
-# Enable comments by entering your Disqus shortname
-# disqusShortname = ""
-# Enable Google Analytics by entering your tracking code
-# googleAnalytics = ""
 paginate = 15
 theme = "hugo-lamp"
 googleAnalytics = "UA-141781918-1"       # Google Analytics UA number
@@ -55,21 +51,30 @@ googleAnalytics = "UA-141781918-1"       # Google Analytics UA number
   weight = 2
   identifier = "sina 微博"
   url = "https://www.weibo.com/u/3754246405"
+[[menu.main]]
+  name = "首页"
+  weight = 1
+  identifier = "home"
+  url = "/"
 # [[menu.main]]
-#   name = "Tags"
+#   name = "前端"
 #   weight = 3
 #   identifier = "tags"
-#   url = "/tags/"
+#   url = "/tags/前端"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
 
 [params]
-  subtitle = "是一个人类。 :Q"
+  subtitle = "一枚十八线城市的前端coder。文章中如有不对的地方，还望及时指正，感谢。:Q "
   author = "LuneShao"                     # Your name
   logo = "/img/photo.jpg"                  # Logo
-  description = "卵はおいしいです"          # Meta description tag
+  description = "这里是luneshao的个人博客，里面包含了前端知识及一部分计算机相关的内容。如果文章中有错误的地方，还请各位大佬不吝赐教，万分感谢。"          # Meta description tag
   paginate = 10
 
   # SEO configs
-  seotitle = "Lune's blogs luneshao lune"                  # Overwrite site title for SEO purpose
+  seotitle = "Lune's blogs"                  # Overwrite site title for SEO purpose
   googleSiteVerification = "Gu27F60AgLNf8h9KCAXsLXjKd7O-e1oZpSGeblt5w70"  # Google Webmaster
   msValidate = "bing_site_verification_code"                  # Bing Webmaster
 

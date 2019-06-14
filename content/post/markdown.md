@@ -1,13 +1,14 @@
 +++
 title = "markdown 常用语法"
-description = ""
+description = "记录了一些平时常用的markdown语法。"
 tags = [ "luneS", "web前端" ]
 date = "2019-05-09"
 location = "JiNan, CN"
 type = "post"
+keywords = "markdown"
 +++
 
-### 列表
+## 列表
 
 ```txt
 // 无序列表
@@ -20,13 +21,13 @@ type = "post"
 2. txt txt txt
 ```
 
-### 引用
+## 引用
 
 ```txt
 > txt txt txt
 ```
 
-### 粗体 和 斜体
+## 粗体 和 斜体
 
 ```txt
 // 粗体
@@ -36,7 +37,7 @@ type = "post"
 *txt*  /  _txt_
 ```
 
-### 表格
+## 表格
 
 ```txt
 | thead | thead | thead |
@@ -44,7 +45,7 @@ type = "post"
 | 左对齐 |  居中  | 右对齐 |
 ```
 
-### 分隔线
+## 分隔线
 
 ```txt
 ***  /  - - -  / * * *

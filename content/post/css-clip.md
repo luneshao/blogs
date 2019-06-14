@@ -5,18 +5,19 @@ tags = ["前端", "CSS"]
 date = "2019-05-23"
 location = "JiNan, CN"
 type = "post"
+keywords = "前端,css,clip"
 +++
 
 参考文献：[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/clip)&emsp;
 [张鑫旭前辈的文章](https://www.zhangxinxu.com/wordpress/2012/07/codepen-jsfiddle/)
 
-> 介绍
+## 介绍
 
-#### 定义
+### 定义
 
 clip 属性剪裁元素，属性仅应用于**绝对定位**元素，例如 `position: absolute` 或 `position: fixed`。
 
-#### 属性值
+### 属性值
 
 * auto：不剪裁。
 
@@ -24,7 +25,7 @@ clip 属性剪裁元素，属性仅应用于**绝对定位**元素，例如 `pos
 
 top & bottom 设置的是距离元素上边距的距离。left & right 设置的是距离元素左边距的距离。
 
-##### 左侧使用了clip属性，左右容器和图片的尺寸都是200 * 200。
+#### 左侧使用了clip属性，左右容器和图片的尺寸都是200 * 200。
 
 <p style="text-align: center">
 <img src="/img/0522-css-clip1.png" style=" width: 100%" />

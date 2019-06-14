@@ -5,6 +5,7 @@ date = "2019-05-06"
 tags = [ "luneS", "日常" ]
 location = "JiNan, CN"
 type="post"
+keywords = "Mac,快捷键"
 +++
 
 在[知乎](https://www.zhihu.com/question/20021861)上截取部分自己会用到的一部分。

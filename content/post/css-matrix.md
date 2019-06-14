@@ -5,6 +5,7 @@ tags = ["前端", "CSS"]
 date = "2019-05-29"
 location = "JiNan, CN"
 type = "post"
+keywords = "css,tranform,Matrix"
 +++
 
 插播一句：`translate` 的百分比是相对于自身的宽高计算的。
@@ -21,7 +22,7 @@ type = "post"
 
 这是啥？我不认识啊？？还是乖乖的学一下吧。
 
-> translate 值的计算。
+## translate 值的计算
 
 于是学习了 [张鑫旭前辈的文章](https://www.zhangxinxu.com/wordpress/2012/06/css3-transform-matrix-%E7%9F%A9%E9%98%B5/)，这是一个矩阵，是transform变换的基础。我们可以根据这个矩阵里面的值推算出，transform 属性的值。
 
@@ -35,11 +36,11 @@ type = "post"
   + ax+cy+e ：变换后的x坐标
   + bx+dy+f ：变换后的y坐标
 
-> scale 值的计算。
+## scale 值的计算
 
 `matrix(s, 0, 0, s, 0, 0);` s 即为 scale 的值。
 
-> rotate 值的计算。
+## rotate 值的计算
 
 方法及参数
 
@@ -52,7 +53,7 @@ x' = x * cosθ - y * sinθ + 0 = x * cosθ - y * sinθ
 y' = x * sinθ + y * cosθ + 0 = x * sinθ + y * cosθ
 ```
 
-> skew 值的计算。
+## skew 值的计算
 
 方法及参数
 
