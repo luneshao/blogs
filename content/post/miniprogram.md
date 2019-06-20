@@ -6,6 +6,7 @@ date = "2019-06-10"
 location = "JiNan, CN"
 type = "post"
 cover="/img/0610-mini-cover.jpg"
+keywords = "小程序,云开发"
 +++
 
 > 引言

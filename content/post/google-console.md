@@ -8,11 +8,25 @@ draft: true
 ---
 > 引言
 
-最近两个月一直在鼓捣这个博客，一直也只是用网址访问。最近，尝试在搜索引擎上搜索我博客的内容、标题，通通搜不到？？？然后，就在 google console 上测试，果然搜不到。然后，就开始看文档，实现让自己的博客可以被抓取、录入索引中。
+最近两个月一直在鼓捣这个博客，一直也只是用网址访问。最近，尝试在搜索引擎上搜索我博客的url、内容、标题，通通搜不到？？？然后，看了[搜索引擎优化 (SEO) 新手指南](https://support.google.com/webmasters/answer/7451184)。在 google console 上配置了站点地图并进行[网址检查](https://support.google.com/webmasters/answer/9012289#url_can_be_on_google_issues)（查看资源中某个网址的 Google 索引信息）。
+
+* 我的检查结果： _此网址未显示在 Google 搜索结果中_ 。（此时已经可以在 google 中检索到 url 了。）
+
+* 点击查看详情 => return ( 已抓取 - 尚未编入索引, 状态：已排除。 ) 查看[状态报告指南](https://support.google.com/webmasters/answer/7440203#discovered__unclear_status)去一条一条的排查。我的结果对应的解释：`Google 已抓取相应网页，但尚未将其编入索引。日后，该网页可能会被编入索引，也可能不会被编入索引；无论如何，您都无需重新提交该网址以供抓取。` 那就只能静静的等待了。（目前已经搜到了。）
+
+下面主要是摘要梳理了搜索引擎优化 (SEO) 新手指南一些相关知识点，帮助理解。
 
 官方文档先祭一下 [搜索引擎优化 (SEO) 新手指南](https://support.google.com/webmasters/answer/7451184)
 
 ## 术语
+
+> [Google 搜索的工作方式](https://support.google.com/webmasters/answer/70897)
+
+  Google 按照以下三个基本步骤来生成基于网页的结果：
+
+  * 抓取
+  * 编入索引
+  * 呈现（和排名）
 
 * **索引** - Google 会将所知道的全部网页存储在其“索引”中。每个网页的索引条目都会描述该网页的内容和位置（网址）。编入索引是指当 Google 抓取、读取网页并将其添加到索引的过程。例如：Google 今天已将我网站上的几个网页编入索引。
 
@@ -26,17 +40,21 @@ draft: true
 
 ## 测试搜索结果
 
-在 google 中搜索 `site:example.com`，尝试是否可以搜索到结果。如果可以搜索到，表明你的网站已经在索引中。
+在 google 中搜索 `site:example.com`，尝试是否可以搜索到结果。如果可以搜索到，表明你的网站已经在索引中。搜不到，就继续向下看吧:)
 
 ## 帮助 Google 找到您的内容
 
-最好的办法是提交 **站点地图** 。站点地图是网站上的一种文件，可告知搜索引擎网站上新增了网页或有更新的网页。
+最好的办法是提交[站点地图](https://support.google.com/webmasters/answer/156184?hl=zh-Hans&ref_topic=4581190) 。站点地图是网站上的一种文件，可告知搜索引擎网站上新增了网页或有更新的网页。
+
+* 这里，我的博客本来是在 google 搜索不到的，hugo 会在 public 文件夹自动生成站点地图。（如果没有使用hugo，[文章](https://support.google.com/webmasters/answer/183668?hl=zh-Hans&ref_topic=4581190)中也提供了一些在线生成站点地图的网址和工具，可以自行生成哟～）此时，需要我们做的就是在 Search Console 工具中，自行配置站点地图的 url，或者将其添加到您的 robots.txt 文件中。然后，在 google 输入 site:luneshao.github.io 就可以搜索到了。一小步进步啊！
 
 ## 告诉 Google 不应抓取哪些页面
 
 若为非敏感信息，则可以使用 robots.txt 阻止不必要的抓取。
 
 ## 帮助 Google（和用户）了解您的内容
+
+诸位可以使用这个[免费网站分析工具](http://analyzer.metatags.org/)，分析一下自己的网站 seo 方面是否存在不足。
 
 ### 1.创建唯一且准确的网页标题
 
@@ -72,6 +90,8 @@ draft: true
 
 <!--more-->
 
-The remaining content of your post.
+> 相关名词及内容介绍
 
 [meta 标签 robot](https://www.metatags.org/meta_name_robots) ：配置全站或仅首页可以被搜索引擎抓取。
+
+[网络爬虫](https://zh.wikipedia.org/wiki/%E7%B6%B2%E8%B7%AF%E7%88%AC%E8%9F%B2)

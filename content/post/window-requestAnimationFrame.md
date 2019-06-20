@@ -7,7 +7,7 @@ location = "JiNan, CN"
 type = "post"
 keywords = "window,requestAnimationFrame,性能,setTimeout,动画"
 +++
-[原文链接 伯乐](http://web.jobbole.com/91578/)  [MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/requestAnimationFrame)
+[原文链接伯乐](http://web.jobbole.com/91578/)  [MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/requestAnimationFrame)
 
 ## 概念
 
