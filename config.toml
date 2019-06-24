@@ -70,7 +70,7 @@ googleAnalytics = "UA-141781918-1"       # Google Analytics UA number
   subtitle = "一枚十八线城市的前端coder。文章中如有不对的地方，还望及时指正，感谢。:Q "
   author = "LuneShao"                     # Your name
   logo = "/img/photo.jpg"                  # Logo
-  description = "这里是luneshao的个人博客，里面包含了前端知识及一部分计算机相关的内容。如果文章中有错误的地方，还请各位大佬不吝赐教，万分感谢。"          # Meta description tag
+  description = "这里是lune的个人博客，主要记录了前端开发过程中遇到的问题，欢迎各位大佬进来喝茶。如果文章中有错误的地方，还请各位大佬不吝赐教，万分感谢。"          # Meta description tag
   paginate = 10
 
   # SEO configs
