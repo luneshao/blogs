@@ -22,4 +22,6 @@ git remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/home
 brew update
 ```
 
+> 以上。🐡
+
 

@@ -1,11 +1,11 @@
 +++
-title = "js 代码美化"
+title = "js 代码美化 (持续更新)"
 description = "js代码美化，截取了一些自己学到的。"
 tags = ["前端", "Javascript"]
 date = "2019-05-27"
 location = "JiNan, CN"
 type = "post"
-draft = "true"
+draft = "false"
 keywords = "javascript,代码美化,前端"
 +++
 
