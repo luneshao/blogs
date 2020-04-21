@@ -10,9 +10,9 @@ draft: false
 
 > 引言
 
-参考文献：[转载微信公众号的正文](https://mp.weixin.qq.com/s/X2gShxrCw0ukZigjE_45kA)
+> 参考文献：[转载微信公众号的正文](https://mp.weixin.qq.com/s/X2gShxrCw0ukZigjE_45kA)
 
-文章结构：注释了一下 eslint.js 的各个配置项是什么意思，再也不会觉得像天书了（狗头
+> 文章结构：注释了一下 eslint.js 的各个配置项是什么意思，再也不会觉得像天书了（狗头
 
 ```js
 // eslint.js

@@ -1,11 +1,4 @@
-baseurl = "https://luneshao.github.io/"
 # remember trailing / at end of baseurl
-languageCode = "en-us"
-title = "luneS's garden"
-paginate = 15
-theme = "hugo-lamp"
-googleAnalytics = "UA-141781918-1"       # Google Analytics UA number
-
 # [permalinks]
 # 	post = "/:year/:month/:day/:slug"
 
@@ -46,43 +39,43 @@ googleAnalytics = "UA-141781918-1"       # Google Analytics UA number
 #   weight = 1
 #   identifier = "hugo"
 #   url = "/hugo/"
-[[menu.main]]
-  name = "sina 微博"
-  weight = 2
-  identifier = "sina 微博"
-  url = "https://www.weibo.com/u/3754246405"
-[[menu.main]]
-  name = "首页"
-  weight = 1
-  identifier = "home"
-  url = "/"
+# [[menu.main]]
+#   name = "sina 微博"
+#   weight = 2
+#   identifier = "sina 微博"
+#   url = "https://www.weibo.com/u/3754246405"
+# [[menu.main]]
+#   name = "首页"
+#   weight = 1
+#   identifier = "home"
+#   url = "/"
 # [[menu.main]]
 #   name = "前端"
 #   weight = 3
 #   identifier = "tags"
 #   url = "/tags/前端"
 
-[taxonomies]
-  tag = "tags"
-  category = "categories"
+# [taxonomies]
+#   tag = "tags"
+#   category = "categories"
 
-[params]
-  subtitle = "一枚十八线城市的前端coder。文章中如有不对的地方，还望及时指正，感谢。:Q "
-  author = "LuneShao"                     # Your name
-  logo = "/img/photo.jpg"                  # Logo
-  description = "这里是lune的个人博客，主要记录了前端开发过程中遇到的问题，欢迎各位大佬进来喝茶。如果文章中有错误的地方，还请各位大佬不吝赐教，万分感谢。"          # Meta description tag
-  paginate = 10
+# [params]
+#   subtitle = "一枚十八线城市的前端coder。文章中如有不对的地方，还望及时指正，感谢。:Q "
+#   author = "LuneShao"                     # Your name
+#   logo = "/img/photo.jpg"                  # Logo
+#   description = "这里是lune的个人博客，主要记录了前端开发过程中遇到的问题，欢迎各位大佬进来喝茶。如果文章中有错误的地方，还请各位大佬不吝赐教，万分感谢。"          # Meta description tag
+#   paginate = 10
 
-  # SEO configs
-  seotitle = "Lune's blogs"                  # Overwrite site title for SEO purpose
-  googleSiteVerification = "Gu27F60AgLNf8h9KCAXsLXjKd7O-e1oZpSGeblt5w70"  # Google Webmaster
-  msValidate = "bing_site_verification_code"                  # Bing Webmaster
+#   # SEO configs
+#   seotitle = "Lune's blogs"                  # Overwrite site title for SEO purpose
+#   googleSiteVerification = "Gu27F60AgLNf8h9KCAXsLXjKd7O-e1oZpSGeblt5w70"  # Google Webmaster
+#   msValidate = "bing_site_verification_code"                  # Bing Webmaster
 
-	email = "1561358258@qq.com"
-  github = "luneshao"
-	twitter = "lune76308387"
-	google = "LuneShao"
-  disqusShortname = "luneshao"
+# 	email = "1561358258@qq.com"
+#   github = "luneshao"
+# 	twitter = "lune76308387"
+# 	google = "LuneShao"
+#   disqusShortname = "luneshao"
   
 
   # Analytics settings
@@ -91,3 +84,80 @@ googleAnalytics = "UA-141781918-1"       # Google Analytics UA number
 
   # Disqus settings（https://disqus.com/）
 # disqus_username: qiubaiying
+
+
+baseURL = "https://luneshao.github.io/"
+languageCode = "en-us"
+title = "luneS's garden"
+theme = "LeaveIt"
+
+paginate = 15
+enableEmoji = true
+enableRobotsTXT = true
+googleAnalytics = "UA-141781918-1" # Google Analytics UA number
+
+preserveTaxonomyNames = true
+
+[blackfriday]
+  hrefTargetBlank = true
+  nofollowLinks = true
+  noreferrerLinks = true
+
+[Permalinks]
+ posts = "/:year/:filename/"
+
+[menu]
+  # [[menu.main]]
+  #   name = "sina 微博"
+  #   weight = 2
+  #   identifier = "sina 微博"
+  #   url = "https://www.weibo.com/u/3754246405"
+  [[menu.main]]
+    name = "首页"
+    weight = 1
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 2
+
+  # [[menu.main]]
+  #   name = "Categories"
+  #   url = "/categories/"
+  #   weight = 5
+
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+
+[params]
+    since = 2019
+    author = "LuneShao"                           # Author's name
+    avatar = "/img/photo.jpg"           # Author's avatar
+    subtitle = "一瓶肥宅快乐水。"         # Subtitle
+    cdn_url = ""           # Base CDN URL
+    home_mode = "" # post or other
+
+    google_verification = ""
+   
+    description = "这里是lune的个人博客，主要记录了前端开发过程中遇到的问题，欢迎各位大佬进来喝茶。如果文章中有错误的地方，还请各位大佬不吝赐教，万分感谢。" # site description
+    keywords = "luneshao，一瓶肥宅快乐水，博客，前端，小骨鱼" # site keywords
+
+    beian = ""
+    baiduAnalytics = ""
+
+    license= '本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可'
+
+[params.social]
+    GitHub = "luneshao"
+    # Twitter = "lune76308387"
+    Email   = "1561358258@qq.com"
+    # Wechat = "/images/me/wechat.png"  # Wechat QRcode image
+
