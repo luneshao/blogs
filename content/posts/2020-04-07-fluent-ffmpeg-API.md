@@ -46,7 +46,7 @@ fluent-ffmpeg 需要 ffmpeg> = 0.9 才能工作。它可能与以前的版本一
 
 **Windows 用户**：ffmpeg 和 ffprobe 很可能不在您的％PATH 中，因此您必须设置％FFMPEG_PATH 和％FFPROBE_PATH。
 
-**Debian / Ubuntu 用户**：官方存储库在 libav-tools 软件包中具有 ffmpeg / ffprobe 可执行文件，并且它们实际上是重命名为 avconv / avprobe 可执行文件（avconv 是 ffmpeg 的分支）。它们应该基本兼容，但是如果您遇到任何问题，则可能要使用真正的 ffmpeg。您可以从源代码编译它，也可以在https://ffmpeg.org/download.html上找到预构建的.deb包（对于Ubuntu，ppa：mc3man / trusty-media PPA 提供了最新的版本）。
+**Debian / Ubuntu 用户**：官方存储库在 libav-tools 软件包中具有 ffmpeg / ffprobe 可执行文件，并且它们实际上是重命名为 avconv / avprobe 可执行文件（avconv 是 ffmpeg 的分支）。它们应该基本兼容，但是如果您遇到任何问题，则可能要使用真正的 ffmpeg。您可以从源代码编译它，也可以在 https://ffmpeg.org/download.html 上找到预构建的.deb包（对于Ubuntu，ppa：mc3man / trusty-media PPA 提供了最新的版本）。
 
 #### flvtool2 or flvmeta
 
@@ -724,7 +724,7 @@ exports.load = function(ffmpeg) {
 }
 ```
 
-第二种预设是预设功能。要使用这些功能，请传递一个以 FfmpegCommand 作为参数的函数。
+第二种预设是预设函数。要使用这些函数，请传递一个以 FfmpegCommand 作为参数的函数。
 
 ```js
 function myPreset(command) {
