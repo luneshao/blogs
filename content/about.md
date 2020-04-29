@@ -1,12 +1,13 @@
 ---
-title: 我
 author: luneShao
 cover: "/img/cover.jpg"
 date: 2020-04-21T10:36:26+08:00
-draft: true
+draft: false
 menu: main
 ---
-我是一只码前端的两足兽，现在在济南工作。Welcome to Jinan~
+## おれ
+
+我是一只码前端的两足兽，坐标济南。Welcome to Jinan~
 
 喜欢听音乐、看动画片、瞎鼓捣看起来有意思的玩意儿。不喜欢运动、出门、社交。小屋是最安全的根据地！
 

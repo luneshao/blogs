@@ -88,7 +88,7 @@
 
 baseURL = "https://luneshao.github.io/"
 languageCode = "en-us"
-title = "luneS's garden"
+title = "lune's garden"
 theme = "LeaveIt"
 
 paginate = 15

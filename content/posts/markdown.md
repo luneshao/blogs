@@ -50,3 +50,8 @@ keywords = "markdown"
 ```txt
 ***  /  - - -  / * * *
 ```
+
+## 图片
+```txt
+![Alt text](图片地址)
+```
