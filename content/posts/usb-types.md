@@ -1,7 +1,7 @@
 +++
 title = "USB 接口类型"
 description = "迫于总是记不住，总结了一下接口规范。"
-tags = [ "luneS", "硬件" ]
+tags = [ "硬件" ]
 date = "2019-05-14"
 location = "JiNan, CN"
 type = "post"

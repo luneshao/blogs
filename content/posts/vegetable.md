@@ -2,7 +2,7 @@
 title = "蔬菜水煮建议时间"
 description = "最近想尝试煮蔬菜吃，炒实现起来 1、麻烦 2、厨房体验不舒适"
 date = "2019-05-06"
-tags = [ "luneS", "日常" ]
+tags = [ "日常" ]
 location = "JiNan, CN"
 type = "post"
 +++

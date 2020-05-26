@@ -1,7 +1,7 @@
 +++
 title = "前端属性兼容性整理"
 description = "浏览器css、js属性兼容性整理及处理方法。"
-tags = [ "luneS", "web前端" ]
+tags = [ "前端", "兼容性" ]
 date = "2019-05-09"
 location = "JiNan, CN"
 type = "post"

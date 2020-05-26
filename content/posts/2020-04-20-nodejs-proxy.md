@@ -1,5 +1,5 @@
 ---
-title: node、nginx 处理跨域
+title: nodejs、Nginx 处理跨域
 author: luneShao
 cover: "/img/cover.jpg"
 tags: ["前端", "跨域", "nginx"]

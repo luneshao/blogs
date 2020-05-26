@@ -1,7 +1,7 @@
 +++
 title = "markdown 常用语法"
 description = "记录了一些平时常用的markdown语法。"
-tags = [ "luneS", "web前端" ]
+tags = ["markdown" ]
 date = "2019-05-09"
 location = "JiNan, CN"
 type = "post"

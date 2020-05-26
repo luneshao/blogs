@@ -1,7 +1,7 @@
 +++
 title = "=8 浏览器易混淆名词整理"
 description = "浏览器易混淆名词整理，比如 host、origin、url、uri"
-tags = [ "luneS", "web前端" ]
+tags = [ "前端" ]
 date = "2019-05-13"
 location = "JiNan, CN"
 type = "post"

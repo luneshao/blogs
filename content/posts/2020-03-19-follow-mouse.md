@@ -3,7 +3,7 @@ title: "边框追随鼠标"
 description: "写了一个简单的demo,实现背景及边框的样式随鼠标的移动改变。"
 author: "luneShao"
 cover: "/img/cover.jpg"
-tags: ["js"]
+tags: ["小脚本"]
 date: 2020-03-19T10:36:26+08:00
 draft: false
 ---

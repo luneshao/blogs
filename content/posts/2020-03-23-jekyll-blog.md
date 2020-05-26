@@ -1,5 +1,5 @@
 ---
-title: jekyll 搭建博客步骤
+title: Jekyll 搭建博客步骤
 description: jekyll 创建及部署博客的步骤。
 author: luneShao
 cover: "/img/cover.jpg"

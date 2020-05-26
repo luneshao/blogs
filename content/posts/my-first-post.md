@@ -1,7 +1,7 @@
 +++
 title = "初次见面"
 description = "我是第一篇帖子"
-tags = [ "start", "luneS", "日常" ]
+tags = [ "日常" ]
 date = "2019-04-10"
 location = "JiNan, CN"
 type = "post"
