@@ -1,12 +1,10 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 description: ""
-author: "luneShao"
-categories:
- - 
-tags:
- - 
-featured_image: "/img/cover.jpg"
+tags: []
 date: {{ .Date }}
+type: "post"
+author: "luneShao"
+featured_image: "/img/cover.jpg"
 draft: true
 ---

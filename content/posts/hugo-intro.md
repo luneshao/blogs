@@ -1,7 +1,7 @@
 +++
 title = "hugo 介绍及使用"
 description = "Hugo介绍"
-tags = ["日常"]
+tags = ["hugo"]
 date = "2019-05-14"
 location = "JiNan, CN"
 type = "post"
