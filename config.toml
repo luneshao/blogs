@@ -117,15 +117,16 @@ preserveTaxonomyNames = true
     weight = 1
     identifier = "home"
     url = "/"
+    
   [[menu.main]]
     name = "Blog"
     url = "/posts/"
     weight = 2
 
-  # [[menu.main]]
-  #   name = "Categories"
-  #   url = "/categories/"
-  #   weight = 5
+  [[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 5
 
   [[menu.main]]
     name = "Tags"
@@ -161,7 +162,7 @@ preserveTaxonomyNames = true
     
 [params.social]
     GitHub = "luneshao"
-    BiliBili = "小骨鱼"
+    # BiliBili = "小骨鱼"
     Email   = "1561358258@qq.com"
     # Wechat = "/images/me/wechat.png"  # Wechat QRcode image
 

@@ -195,4 +195,67 @@ Axios.get('/api/data')
   })
 ```
 
-> 以上。🐵
+## 2020-06-03 更新
+或者可以安装 `mockjs2`
+
+```
+yarn add mockjs2
+```
+
+然后创建 `mock/test.js` 文件
+
+查看官方 [api](https://github.com/nuysoft/Mock/wiki) 直接生成mock数据，可以参考[官方示例](http://mockjs.com/examples.html)。
+
+然后在需要的地方调用就可以了。
+
+### 代码
+```js
+// mock/test.js
+import Mock from 'mockjs2'
+import { mapCompanys } from '@/data'
+/**
+ * 魔力象限数据
+ * @returns
+ * {
+ *  series: [ {data: [integer, integer, integer, integer, company, year-mm-dd]}, [] ... ]
+ * }
+ */
+function getMagic () {
+  const companys = Object.keys(mapCompanys)
+
+  return {
+    'series|24': [{ 'data|10-14': [['@integer(0, 100)', '@integer(0, 100)', '@integer(1, 4)', '@integer(1, 4)', `@pick(${companys})`, '@pick([2018, 2019, 2020])' + '-' + '@date(MM-dd)']] }]
+  }
+}
+
+Mock.mock('/api/getMagic', 'get', getMagic())
+
+export default Mock
+```
+
+```js
+// main.js
+import '@/mock'
+```
+
+```vue
+// test.vue
+<template>
+...
+</template>
+
+<script>
+import Axios from 'axios'
+
+export default {
+  mounted () {
+    axios.get('/api/getMagic')
+      .then(res => {
+        console.log('mock res:', res)
+      })
+  }
+}
+</script>
+```
+
+以上。🐵

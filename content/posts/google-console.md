@@ -21,7 +21,7 @@ draft: false
 
 ## 1.术语
 
-> [Google 搜索的工作方式](https://support.google.com/webmasters/answer/70897)
+[Google 搜索的工作方式](https://support.google.com/webmasters/answer/70897)
 
   Google 按照以下三个基本步骤来生成基于网页的结果：
 
@@ -91,10 +91,10 @@ draft: false
 
 <!--more-->
 
-> 相关名词及内容介绍
+### 相关名词及内容介绍
 
-[meta 标签 robot](https://www.metatags.org/meta_name_robots) ：配置全站或仅首页可以被搜索引擎抓取。
+- [meta 标签 robot](https://www.metatags.org/meta_name_robots) ：配置全站或仅首页可以被搜索引擎抓取。
 
-[网络爬虫](https://zh.wikipedia.org/wiki/%E7%B6%B2%E8%B7%AF%E7%88%AC%E8%9F%B2)
+- [网络爬虫](https://zh.wikipedia.org/wiki/%E7%B6%B2%E8%B7%AF%E7%88%AC%E8%9F%B2)
 
-> 以上。🕸
+以上。🕸
