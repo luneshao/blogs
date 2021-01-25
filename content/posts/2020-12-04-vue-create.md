@@ -40,7 +40,7 @@ module.exports = {
     // 配置 html 文件 title
     config
     .plugin('html')
-    .taps(args => {
+    .tap(args => {
       args[0].title = process.env.VUE_APP_TITLE
     })
   }
