@@ -1,7 +1,7 @@
 ---
 title: "uniapp 开发小程序压缩图片"
 date: 2021-01-29T10:11:28+08:00
-description: ""
+description: "文件转base64、获取文件尺寸、压缩文件（微信小程序及普通js）、base64转文件"
 tags: ['小程序']
 type: "post"
 author: "luneShao"
@@ -14,7 +14,7 @@ draft: false
 #### 步骤为：
 
 1. 获取图片信息
-2，获取canvas 节点
+2. 获取canvas 节点
 3. 创建图片对象
 4. 压缩图片
 
@@ -70,6 +70,16 @@ function compressImg (img, fn) {
 }
 ```
 
+#### 使用方法
+```js
+getImageObject(list[0].file.path, img => {
+  compressImg(img, res => {
+    console.log(res);
+  })
+})
+
+```
+
 新发现
 
 base64字符的长度就是文件尺寸 :P
@@ -87,15 +97,6 @@ function getSize(url, fn) {
     n = bstr.length;
   fn(n)
 }
-```
-
-#### 使用方法
-```js
-getImageObject(list[0].file.path, img => {
-  compressImg(img, res => {
-    console.log(res);
-  })
-})
 ```
 
 ### 普通压缩图片处理
@@ -270,9 +271,22 @@ seal.onload = () => {
 
 ### 参考文章
 [了解JS压缩图片，这一篇就够了](https://developer.51cto.com/art/202008/623099.htm)
+
 [使用canvas压缩图片大小](https://www.jianshu.com/p/f46195810c3b)
+
 [HTMLCanvasElement.toDataURL()](https://developer.mozilla.org/zh-cn/docs/Web/API/HTMLCanvasElement/toDataURL)
+
 [Uint8Array](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array)
+
 [Blob](https://developer.mozilla.org/zh-CN/docs/Web/API/Blob)
 
+[base64图片编码大小与原图文件大小之间的联系](https://www.cnblogs.com/garfieldzhong/p/6763614.html)
+
+-------
+
+#### 源码献上
+
+[code at github](https://github.com/luneShaoGM/Train/blob/main/compress.html)
+
+[code at github（封装成对象）](https://github.com/luneShaoGM/Train/blob/main/compress.v2.html)
 
