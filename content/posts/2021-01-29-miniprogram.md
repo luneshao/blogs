@@ -289,4 +289,3 @@ seal.onload = () => {
 [code at github](https://github.com/luneShaoGM/Train/blob/main/compress.html)
 
 [code at github（封装成对象）](https://github.com/luneShaoGM/Train/blob/main/compress.v2.html)
-
